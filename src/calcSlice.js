@@ -10,7 +10,7 @@ const calcSlice=createSlice({
             state.result=eval(action.payload)
         },
         clear(state){
-            state.result=0
+            state.result=""
         }
     }
 })
